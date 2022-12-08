@@ -35,7 +35,7 @@ PORTC &= (0 << 2);
 while (1)
       {
         if ((PINC & (1 << 7)) == 0) {           
-            PORTC ^= PORTC | (1 << 2); 
+            PORTC ^= (1 << 2); 
             delay_ms(500);
         }
       }

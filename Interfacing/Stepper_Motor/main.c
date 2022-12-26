@@ -20,68 +20,68 @@ int main(void) {
         if (dioGetPinValue(0, 0) == 0) {
             for (u8 i = 0; i < 128; i++) {
                 dioSetPortValue(3, 0x03);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x06);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x0C);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x09);
-                _delay_ms(50);
+                _delay_ms(3);
             }
             _delay_ms(1000);
         }
         else if (dioGetPinValue(1, 0) == 0) {
             for (u8 i = 0; i < 128; i++) {
                 dioSetPortValue(3, 0x01);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x02);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x04);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x08);
-                _delay_ms(50);
+                _delay_ms(3);
             }
             _delay_ms(1000);
         }
         else if (dioGetPinValue(2, 0) == 0) {
             for (u8 i = 0; i < 64; i++) {
                 dioSetPortValue(3, 0x01);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x03);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x02);
-                _delay_ms(50);
+                _delay_ms(3));
                 dioSetPortValue(3, 0x06);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x04);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x0C);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x08);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x09);
-                _delay_ms(50);
+                _delay_ms(3);
             }
             _delay_ms(1000);
         }
         else if (dioGetPinValue(3, 0) == 0) {
             for (u8 i = 0; i < 3; i++) {
                 dioSetPortValue(3, 0x01);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x03);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x02);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x06);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x04);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x0C);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x08);
-                _delay_ms(50);
+                _delay_ms(3);
                 dioSetPortValue(3, 0x09);
-                _delay_ms(50);
+                _delay_ms(3);
             }
             _delay_ms(1000);
         }
